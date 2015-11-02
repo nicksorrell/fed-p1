@@ -13,45 +13,57 @@
     <header>
       <div class="row">
         <div class="col-xs-2">
-          <img class="logo" src="img/logo_sm.png"alt="Nick Sorrell logo">
+          <a href="#">
+            <img class="logo" src="img/logo_sm.png"alt="Nick Sorrell logo">
+          </a>
         </div>
         <div class="col-xs-10 text-right">
           <h1>Nick Sorrell</h1>
           <h2>Front-End Ninja</h2>
         </div>
       </div>
+
+      <nav class="navbar navbar-default">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav nav-pills nav-justified">
+            <li role="presentation"><a href="#">Work</a></li>
+            <li role="presentation"><a href="#">About Me</a></li>
+            <li role="presentation"><a href="#">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
     </header>
 
-    <div class="row"> <!-- MAKE THIS DISAPPEAR AT MOBILE SCREEN SIZE WITH MEDIA QUERY -->
+    <div class="row hidden-xs"> <!-- MAKE THIS DISAPPEAR AT MOBILE SCREEN SIZE WITH MEDIA QUERY -->
       <div class="col-xs-12">
         <div id="work-carousel" class="carousel slide" data-ride="carousel">
           <!-- Indicators -->
           <ol class="carousel-indicators">
             <li data-target="#work-carousel" data-slide-to="0" class="active"></li>
             <li data-target="#work-carousel" data-slide-to="1"></li>
+            <li data-target="#work-carousel" data-slide-to="2"></li>
           </ol>
 
           <div class="carousel-inner" role="listbox">
 
             <div class="item active">
-              <img src="img/slider.png" alt="...">
-              <div class="carousel-caption">
-                Slider item
-              </div>
+              <img src="img/slide1.png" alt="Barbell Bro">
             </div>
 
             <div class="item">
-              <img src="img/slider.png" alt="...">
-              <div class="carousel-caption">
-                Slider item
-              </div>
+              <img src="img/slide2.png" alt="ATHD App">
             </div>
 
             <div class="item">
-              <img src="img/slider.png" alt="...">
-              <div class="carousel-caption">
-                Slider item
-              </div>
+              <img src="img/slide3.png" alt="Project 0">
             </div>
 
           </div>
@@ -74,31 +86,31 @@
         <h1>Featured Work</h1>
       </div>
 
-      <div class="col-xs-12 col-md-4">
+      <div class="col-xs-12 col-md-6 col-lg-4">
         <div class="thumbnail">
-          <img src="img/work1.png" alt="Work sample #1">
+          <img src="img/work1.png" alt="Barbell Bro">
           <div class="caption text-center">
-            <h1>Work Project</h1>
+            <h1>Barbell Bro</h1>
             <p><a href="#">https://github.com/nicksorrell</a></p>
           </div>
         </div>
       </div>
 
-      <div class="col-xs-12 col-md-4">
+      <div class="col-xs-12 col-md-6 col-lg-4">
         <div class="thumbnail">
-          <img src="img/work1.png" alt="Work sample #2">
+          <img src="img/work2.png" alt="ATHD App">
           <div class="caption text-center">
-            <h1>Work Project</h1>
+            <h1>ATHD App</h1>
             <p><a href="#">https://github.com/nicksorrell</a></p>
           </div>
         </div>
       </div>
 
-      <div class="col-xs-12 col-md-4">
+      <div class="col-xs-12 col-md-6 col-lg-4">
         <div class="thumbnail">
-          <img src="img/work1.png" alt="Work sample #3">
+          <img src="img/work3.png" alt="FED Project 0">
           <div class="caption text-center">
-            <h1>Work Project</h1>
+            <h1>FED Project 0</h1>
             <p><a href="#">https://github.com/nicksorrell</a></p>
           </div>
         </div>

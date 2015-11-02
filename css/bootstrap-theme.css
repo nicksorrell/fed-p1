@@ -2,6 +2,8 @@
  * Bootstrap v3.3.4 (http://getbootstrap.com)
  * Copyright 2011-2015 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ *
+ * Project-specific styles begin @ line 447
  */
 
 .btn-default,
@@ -474,6 +476,14 @@
           box-shadow: inset 0 1px 3px rgba(0, 0, 0, .05), 0 1px 0 rgba(255, 255, 255, .1);
 }
 
+/* Project-specific styles */
+
+body {
+  background: #EAEAEA;
+  font-family: 'Roboto', sans-serif;
+  padding-top: 2em;
+}
+
 header .logo {
   padding-top: 1em;
 }
@@ -483,21 +493,23 @@ header h1, header h2 {
 }
 header h1 {
   font-weight: 900;
+  text-shadow: 1px 1px 0 #fff;
+  color: #555;
+  font-size: 48px;
 }
 
 header h2 {
-  font-size:1.25em;
+  font-size: 1.4em;
+  color: #0260C4;
 }
 
 header {
-  padding-bottom: 1em;
-  border-bottom: 3px solid #BCBBBB;
-  margin-bottom: 2em;
+  margin-bottom: 1em;
 }
 
-body {
-  font-family: 'Roboto', sans-serif;
-  padding-top: 2em;
+header nav {
+  margin-top: 1em;
+  border-top: 3px solid #BCBBBB;
 }
 
 .carousel-inner > .item > img {
@@ -507,5 +519,26 @@ body {
 
 .thumbnail {
   border: none;
+  background: transparent;
+  -webkit-box-shadow: none;
+  box-shadow: none;
 }
+
+.navbar {
+  background: transparent;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+  border: none;
+  border-top: 3px solid #BCBBBB;
+}
+
+@media (max-width:450px) {
+	header h1 {
+    font-size: 2em;
+  }
+  header h2 {
+    font-size: 1em;
+  }
+}
+
 /*# sourceMappingURL=bootstrap-theme.css.map */
