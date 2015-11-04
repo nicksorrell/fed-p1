@@ -487,10 +487,12 @@ body {
 header .logo {
   padding-top: 1em;
 }
+
 header h1, header h2 {
   text-transform: uppercase;
   line-height: 0.75em;
 }
+
 header h1 {
   font-weight: 900;
   text-shadow: 1px 1px 0 #fff;
@@ -510,6 +512,12 @@ header {
 header nav {
   margin-top: 1em;
   border-top: 3px solid #BCBBBB;
+}
+
+footer {
+  border-top: 1px solid #ccc;
+  padding: 1em 0;
+  color: #888;
 }
 
 .carousel {
@@ -566,12 +574,6 @@ header nav {
 
 .blurb {
   margin: 2em 0;
-}
-
-footer {
-  border-top: 1px solid #ccc;
-  padding: 1em 0;
-  color: #888;
 }
 
 @media (max-width:480px) {
