@@ -572,8 +572,36 @@ footer {
   box-shadow: 1px 1px 3px #555;
 }
 
+.hero p {
+  right:5%;
+  bottom: 5%;
+  color: #fff;
+  font-size: 90px;
+  text-shadow: 1px 1px 0px #000;
+  position: absolute;
+  text-align: right;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.hero > p > .highlight {
+  color: orange;
+}
+
 .blurb {
   margin: 2em 0;
+}
+
+@media (max-width: 991px){
+  .hero p {
+    font-size: 60px;
+  }
+}
+
+@media (max-width: 600px){
+  .hero p {
+    font-size: 45px;
+  }
 }
 
 @media (max-width:480px) {
@@ -586,6 +614,10 @@ footer {
 
   .hero > img {
     width: 100%;
+  }
+
+  .hero p {
+    font-size: 30px;
   }
 }
 
